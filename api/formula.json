@@ -10,7 +10,6 @@
     "homepage": "https://abacas.sourceforge.io",
     "versions": {
       "stable": "1.3.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -68,13 +67,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Find antimicrobial resistance and virulence genes in contigs",
-    "license": [
-      "GPL-2.0"
-    ],
+    "license": "GPL-2.0",
     "homepage": "https://github.com/tseemann/abricate",
     "versions": {
       "stable": "1.0.1",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -139,13 +135,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Visualize genome sequence assemblies",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/bcgsc/ABySS-explorer",
     "versions": {
       "stable": "2.1.0",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -207,7 +200,6 @@
     "homepage": "https://github.com/bigdatagenomics/adam",
     "versions": {
       "stable": "0.32.0",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -269,7 +261,6 @@
     "homepage": "https://github.com/sc932/ALE",
     "versions": {
       "stable": "0.0.20180904",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -327,13 +318,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Estimate evolutionary distance between similar genomes",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/EvolBioInf/andi",
     "versions": {
       "stable": "0.13",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -397,13 +385,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Convert various sequence formats to FASTA",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/tseemann/any2fasta",
     "versions": {
       "stable": "0.4.2",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -463,7 +448,6 @@
     "homepage": "https://www.poissonboltzmann.org/",
     "versions": {
       "stable": "1.5",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -498,6 +482,7 @@
     "bottle_disabled": false,
     "options": [],
     "build_dependencies": [
+      "unzip",
       "cmake"
     ],
     "dependencies": [
@@ -530,7 +515,6 @@
     "homepage": "http://mbio-serv2.mbioekol.lu.se/ARAGORN/",
     "versions": {
       "stable": "1.2.38",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -586,13 +570,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Scaffold genome sequence assemblies using 10x Genomics data",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/bcgsc/arcs",
     "versions": {
       "stable": "1.1.1",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -603,7 +584,7 @@
         "revision": null
       }
     },
-    "revision": 0,
+    "revision": 1,
     "version_scheme": 0,
     "bottle": {
       "stable": {
@@ -613,12 +594,12 @@
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
           "catalina": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/arcs-1.1.1.catalina.bottle.tar.gz",
-            "sha256": "c8075e27fb5d1c6f4cc3091f0480089137d4f6b0570fb7a550d34f2ebbc61b36"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/arcs-1.1.1_1.catalina.bottle.tar.gz",
+            "sha256": "d683a22fb63e36d4cbcf11847b9700d85c454a90e77915615bcccae95d0c2475"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/arcs-1.1.1.x86_64_linux.bottle.tar.gz",
-            "sha256": "40e0c50ce2615b6f2df8a8e60ffa008af3ab74b68e1bf12c52d1dbb1b4a0f0dc"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/arcs-1.1.1_1.x86_64_linux.bottle.tar.gz",
+            "sha256": "84a56e57a9a1c904361dc2100e279a41f9992b208737061276cce50273df0ff9"
           }
         }
       }
@@ -657,7 +638,6 @@
     "homepage": "https://github.com/bcgsc/arks",
     "versions": {
       "stable": "1.0.4",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -724,7 +704,6 @@
     "homepage": "https://www.niehs.nih.gov/research/resources/software/biostatistics/art/index.cfm",
     "versions": {
       "stable": "20160605",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -786,7 +765,6 @@
     "homepage": "https://www.sanger.ac.uk/science/tools/artemis",
     "versions": {
       "stable": "17.0.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -848,7 +826,6 @@
     "homepage": "https://example.com/",
     "versions": {
       "stable": "3.7.7",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -906,13 +883,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Estimate species tree given set of unrooted gene trees",
-    "license": [
-      "Apache-2.0"
-    ],
+    "license": "Apache-2.0",
     "homepage": "https://github.com/smirarab/ASTRAL",
     "versions": {
       "stable": "5.7.1",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -970,13 +944,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Bayesian co-estimation of phylogenies and multiple alignments",
-    "license": [
-      "GPL-2.0"
-    ],
+    "license": "GPL-2.0",
     "homepage": "http://www.bali-phy.org/",
     "versions": {
       "stable": "3.5.0",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -1040,13 +1011,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Convert and demultiplex PacBio BAM files to fasta and fastq format",
-    "license": [
-      "BSD-3-Clause-Clear"
-    ],
+    "license": "BSD-3-Clause-Clear",
     "homepage": "https://github.com/PacificBiosciences/bam2fastx",
     "versions": {
       "stable": "1.3.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -1111,13 +1079,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Bayesian analysis of macroevolutionary mixture models on phylogenies",
-    "license": [
-      "GPL-2.0"
-    ],
+    "license": "GPL-2.0",
     "homepage": "http://bamm-project.org",
     "versions": {
       "stable": "2.5.0",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -1175,13 +1140,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Bioinf App for Navigating De novo Assembly Graphs Easily",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://rrwick.github.io/Bandage/",
     "versions": {
       "stable": "0.8.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -1251,7 +1213,6 @@
     "homepage": "https://github.com/tseemann/barrnap",
     "versions": {
       "stable": "0.9",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -1310,13 +1271,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Extract paired reads from coordinate sorted BAM files",
-    "license": [
-      "LGPL-2.1"
-    ],
+    "license": "LGPL-2.1",
     "homepage": "https://github.com/ssadedin/bazam",
     "versions": {
       "stable": "1.0.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -1377,14 +1335,13 @@
     "license": null,
     "homepage": "https://jgi.doe.gov/data-and-tools/bbtools/",
     "versions": {
-      "stable": "38.86",
-      "devel": null,
+      "stable": "38.87",
       "head": null,
       "bottle": true
     },
     "urls": {
       "stable": {
-        "url": "https://downloads.sourceforge.net/bbmap/BBMap_38.86.tar.gz",
+        "url": "https://downloads.sourceforge.net/bbmap/BBMap_38.87.tar.gz",
         "tag": null,
         "revision": null
       }
@@ -1399,12 +1356,12 @@
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
           "catalina": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/bbtools-38.86.catalina.bottle.tar.gz",
-            "sha256": "d321c705775592719ac53b7d2e89aff8a02087c262b293ba2dc265332f5f6bb9"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/bbtools-38.87.catalina.bottle.tar.gz",
+            "sha256": "1a682ddc8c91764867417564a23d07ee8d166e1e754aa1b17bbb82326723f219"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/bbtools-38.86.x86_64_linux.bottle.tar.gz",
-            "sha256": "edebab140175eb6a45b4707549b563bb61fd65023f410662713b5718d2dda620"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/bbtools-38.87.x86_64_linux.bottle.tar.gz",
+            "sha256": "1e0f94031afe0957c5db853a8fe7914facf0c93bbe0127d55f4ab8bcf906f548"
           }
         }
       }
@@ -1436,13 +1393,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "De Bruijn graph compaction in low memory",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/GATB/bcalm",
     "versions": {
       "stable": "2.2.2",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -1502,13 +1456,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Bayesian evolutionary analysis by sampling trees",
-    "license": [
-      "LGPL-2.1"
-    ],
+    "license": "LGPL-2.1",
     "homepage": "https://www.beast2.org/",
     "versions": {
       "stable": "2.6.3",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -1568,13 +1519,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Trim, circularise, and orient long read assemblies",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/tseemann/berokka",
     "versions": {
       "stable": "0.2.3",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -1634,13 +1582,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "High-performance error correction for Illumina resequencing data",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/lh3/bfc",
     "versions": {
       "stable": "r181",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -1698,13 +1643,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Highly parallel build/index of coloured/compacted de Bruijn graphs",
-    "license": [
-      "BSD-2-Clause"
-    ],
+    "license": "BSD-2-Clause",
     "homepage": "https://github.com/pmelsted/bifrost",
     "versions": {
       "stable": "1.0.4",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -1763,18 +1705,17 @@
     "oldname": null,
     "aliases": [],
     "versioned_formulae": [],
-    "desc": "BioBloom Tools (BBT): Bloom filter for bioinformatics",
+    "desc": "BBT: Bloom filter for bioinformatics",
     "license": null,
-    "homepage": "http://www.bcgsc.ca/platform/bioinfo/software/biobloomtools/",
+    "homepage": "https://www.bcgsc.ca/platform/bioinfo/software/biobloomtools/",
     "versions": {
-      "stable": "2.3.2",
-      "devel": null,
+      "stable": "2.3.3",
       "head": "HEAD",
       "bottle": true
     },
     "urls": {
       "stable": {
-        "url": "https://github.com/bcgsc/biobloom/releases/download/2.3.2/biobloomtools-2.3.2.tar.gz",
+        "url": "https://github.com/bcgsc/biobloom/releases/download/2.3.3/biobloomtools-2.3.3.tar.gz",
         "tag": null,
         "revision": null
       }
@@ -1788,13 +1729,13 @@
         "prefix": "/home/linuxbrew/.linuxbrew",
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
-          "sierra": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/biobloomtools-2.3.2.sierra.bottle.tar.gz",
-            "sha256": "4181eb16f11624fc6f5750a9d8dda2f948866ddfdf6551ebe486a6f221e9cde0"
+          "catalina": {
+            "url": "https://linuxbrew.bintray.com/bottles-bio/biobloomtools-2.3.3.catalina.bottle.tar.gz",
+            "sha256": "0ee92de1bc3bc3e22572154e84db05b1120953a1758ec90ae50685dc601c3551"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/biobloomtools-2.3.2.x86_64_linux.bottle.tar.gz",
-            "sha256": "a495e45dd593d6c015da6840579409b91dc1d95c3fba721623af07e04ac0024e"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/biobloomtools-2.3.3.x86_64_linux.bottle.tar.gz",
+            "sha256": "6c1cb00f8060a9c59ab37bf3d58e8c8bbfb522a5c26ad714c2c07623bc672522"
           }
         }
       }
@@ -1830,13 +1771,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "GNU-Make-like utility for managing builds and complex workflows",
-    "license": [
-      "BSD-3-Clause"
-    ],
+    "license": "BSD-3-Clause",
     "homepage": "https://github.com/evoldoers/biomake",
     "versions": {
       "stable": "0.1.5",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -1898,7 +1836,6 @@
     "homepage": "https://bioperl.org",
     "versions": {
       "stable": "1.007002",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -1962,7 +1899,6 @@
     "homepage": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download",
     "versions": {
       "stable": "2.2.26",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -2022,7 +1958,6 @@
     "homepage": "https://blast.ncbi.nlm.nih.gov/",
     "versions": {
       "stable": "2.2.31",
-      "devel": null,
       "head": null,
       "bottle": false
     },
@@ -2071,7 +2006,6 @@
     "homepage": "https://genome.ucsc.edu/FAQ/FAQblat.html",
     "versions": {
       "stable": "36",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -2133,13 +2067,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Database of chemoinformatics",
-    "license": [
-      "CC0-1.0"
-    ],
+    "license": "CC0-1.0",
     "homepage": "https://www.sourceforge.net/projects/bodr",
     "versions": {
       "stable": "10",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -2198,13 +2129,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Ultrafast, flexible taxonomic analysis and classification",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/dnbaker/bonsai",
     "versions": {
       "stable": "0.3",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -2264,39 +2192,36 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Ultrafast memory-efficient short read aligner",
-    "license": [
-      "Artistic-2.0"
-    ],
+    "license": "Artistic-2.0",
     "homepage": "https://bowtie-bio.sourceforge.io/",
     "versions": {
-      "stable": "1.2.3",
-      "devel": null,
+      "stable": "1.3.0",
       "head": "HEAD",
       "bottle": true
     },
     "urls": {
       "stable": {
-        "url": "https://github.com/BenLangmead/bowtie/archive/v1.2.3.tar.gz",
+        "url": "https://github.com/BenLangmead/bowtie/archive/v1.3.0.tar.gz",
         "tag": null,
         "revision": null
       }
     },
-    "revision": 1,
+    "revision": 0,
     "version_scheme": 0,
     "bottle": {
       "stable": {
         "rebuild": 0,
-        "cellar": ":any",
+        "cellar": ":any_skip_relocation",
         "prefix": "/home/linuxbrew/.linuxbrew",
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
           "catalina": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/bowtie-1.2.3_1.catalina.bottle.tar.gz",
-            "sha256": "7fa2de70af58f8e5da3a0eb5e2027c21f71d9771ce434d3c5e76095587540300"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/bowtie-1.3.0.catalina.bottle.tar.gz",
+            "sha256": "097544d5656a7fab72b8d36e08bc7e2be4032fdd573fa205ad4da9ad5d7bf56a"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/bowtie-1.2.3_1.x86_64_linux.bottle.tar.gz",
-            "sha256": "da870f5995114f425d58663e971f01ea8aa88d41224b6eafdca348362614836b"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/bowtie-1.3.0.x86_64_linux.bottle.tar.gz",
+            "sha256": "cf888db0331e61e96ebc6ea51418af5a1f9045d83c49c560d65cb396a448ac4d"
           }
         }
       }
@@ -2329,13 +2254,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Bayesian estimation species abundances from Kraken output",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://ccb.jhu.edu/software/bracken/index.shtml",
     "versions": {
       "stable": "2.6.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -2395,7 +2317,6 @@
     "homepage": "https://barricklab.org/twiki/bin/view/Lab/ToolsBacterialGenomeResequencing",
     "versions": {
       "stable": "0.35.2",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -2460,19 +2381,16 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Assess genome assembly completeness with single-copy orthologs",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://busco.ezlab.org",
     "versions": {
-      "stable": "4.1.1",
-      "devel": null,
+      "stable": "4.1.4",
       "head": "HEAD",
       "bottle": true
     },
     "urls": {
       "stable": {
-        "url": "https://gitlab.com/ezlab/busco/repository/4.1.1/archive.tar.bz2",
+        "url": "https://gitlab.com/ezlab/busco/repository/4.1.4/archive.tar.bz2",
         "tag": null,
         "revision": null
       }
@@ -2487,12 +2405,12 @@
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
           "catalina": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/busco-4.1.1.catalina.bottle.tar.gz",
-            "sha256": "253d2bcda073ac985bb1240b1f818b0e643abd047311eb05a12f0acabfcf9047"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/busco-4.1.4.catalina.bottle.tar.gz",
+            "sha256": "f9a62517ec79bd2f2c9cff93e54b439492c6817881073c8078f0681ea8dd3deb"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/busco-4.1.1.x86_64_linux.bottle.tar.gz",
-            "sha256": "ddc1c727ae2ca7f465fe6a214d0124fcc7ec6244d4266f7e7272447afa0f28be"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/busco-4.1.4.x86_64_linux.bottle.tar.gz",
+            "sha256": "1bce16b5608a8389835c63d8eecfb55b0c7a73ad28815f6eeb79d701b3d0f28a"
           }
         }
       }
@@ -2500,7 +2418,9 @@
     "keg_only": false,
     "bottle_disabled": false,
     "options": [],
-    "build_dependencies": [],
+    "build_dependencies": [
+      "unzip"
+    ],
     "dependencies": [
       "augustus",
       "brewsci/bio/blast@2.2",
@@ -2508,7 +2428,7 @@
       "hmmer",
       "numpy",
       "prodigal",
-      "python@3.8"
+      "python@3.9"
     ],
     "recommended_dependencies": [],
     "optional_dependencies": [],
@@ -2529,12 +2449,11 @@
     "oldname": null,
     "aliases": [],
     "versioned_formulae": [],
-    "desc": "The next version of bwa-mem short read aligner",
+    "desc": "Next version of bwa-mem short read aligner",
     "license": null,
     "homepage": "https://github.com/bwa-mem2/bwa-mem2",
     "versions": {
       "stable": "2.0",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -2596,7 +2515,6 @@
     "homepage": "https://github.com/bigdatagenomics/cannoli",
     "versions": {
       "stable": "0.10.0",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -2658,7 +2576,6 @@
     "homepage": "https://canu.readthedocs.io/en/latest/",
     "versions": {
       "stable": "1.9",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -2713,12 +2630,11 @@
     "oldname": null,
     "aliases": [],
     "versioned_formulae": [],
-    "desc": "CAP3: A DNA Sequence Assembly Program",
+    "desc": "DNA Sequence Assembly Program",
     "license": null,
     "homepage": "http://seq.cs.iastate.edu/cap3.html",
     "versions": {
       "stable": "2015-02-11",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -2776,13 +2692,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Cluster and compare protein or nucleotide sequences",
-    "license": [
-      "GPL-2.0"
-    ],
+    "license": "GPL-2.0-or-later",
     "homepage": "http://cd-hit.org",
     "versions": {
       "stable": "4.8.1",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -2793,7 +2706,7 @@
         "revision": null
       }
     },
-    "revision": 0,
+    "revision": 1,
     "version_scheme": 0,
     "bottle": {
       "stable": {
@@ -2802,13 +2715,13 @@
         "prefix": "/home/linuxbrew/.linuxbrew",
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
-          "sierra": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/cd-hit-4.8.1.sierra.bottle.tar.gz",
-            "sha256": "9a3289933ffe405f4dcc43b57d582ac3757aed01901669b80c686be431a12c7f"
+          "catalina": {
+            "url": "https://linuxbrew.bintray.com/bottles-bio/cd-hit-4.8.1_1.catalina.bottle.tar.gz",
+            "sha256": "47631dc21a652818238471695e530caa3c949841638bbb1453907c006f4f57ee"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/cd-hit-4.8.1.x86_64_linux.bottle.tar.gz",
-            "sha256": "0986ecff059b6e8bb299846a7d5257a6df127c601299e9f0afddfa0c3ec36d0b"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/cd-hit-4.8.1_1.x86_64_linux.bottle.tar.gz",
+            "sha256": "9e7bee44f6ee0b8299b24a894322bec6e9d79b28b95bee7bd8d7e0b8d59de83a"
           }
         }
       }
@@ -2840,13 +2753,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Rapid sensitive classification of metagenomic sequences",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "http://www.ccb.jhu.edu/software/centrifuge",
     "versions": {
       "stable": "1.0.3",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -2906,13 +2816,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Tool to circularize genome assemblies",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://sanger-pathogens.github.io/circlator/",
     "versions": {
       "stable": "1.5.5",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -2946,7 +2853,9 @@
     "keg_only": false,
     "bottle_disabled": false,
     "options": [],
-    "build_dependencies": [],
+    "build_dependencies": [
+      "unzip"
+    ],
     "dependencies": [
       "brewsci/bio/mummer",
       "bwa",
@@ -2976,13 +2885,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Visualize data in a circular layout",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "http://circos.ca",
     "versions": {
       "stable": "0.69-9",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -3044,13 +2950,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Efficient Inference of Recombination in Bacterial Genomes",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/xavierdidelot/ClonalFrameML",
     "versions": {
       "stable": "1.12",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -3106,13 +3009,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Fast, scalable generation multiple sequence alignments",
-    "license": [
-      "GPL-2.0"
-    ],
+    "license": "GPL-2.0",
     "homepage": "http://www.clustal.org/omega/",
     "versions": {
       "stable": "1.2.4",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -3170,13 +3070,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Multiple sequence alignment tool",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "http://www.clustal.org/clustal2/",
     "versions": {
       "stable": "2.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -3232,13 +3129,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Pick/describe HIV clusters in phylogenetic trees",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "http://hiv.bio.ed.ac.uk/software.html",
     "versions": {
       "stable": "1.2.5",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -3300,7 +3194,6 @@
     "homepage": "http://stat.sys.i.kyoto-u.ac.jp/prog/consel/",
     "versions": {
       "stable": "0.20",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -3360,7 +3253,6 @@
     "homepage": "https://github.com/jkbonfield/crumble",
     "versions": {
       "stable": "0.8.3",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -3418,13 +3310,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Removes adapter sequences, primers, and poly-A tails",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/marcelm/cutadapt",
     "versions": {
       "stable": "2.10",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -3458,7 +3347,9 @@
     "keg_only": false,
     "bottle_disabled": false,
     "options": [],
-    "build_dependencies": [],
+    "build_dependencies": [
+      "unzip"
+    ],
     "dependencies": [
       "python@3.8"
     ],
@@ -3486,7 +3377,6 @@
     "homepage": "https://github.com/cmks/DAS_Tool",
     "versions": {
       "stable": "1.1.2",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -3550,13 +3440,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Collapse homopolymer runs in FASTQ files",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/tseemann/dehomopolymerate",
     "versions": {
       "stable": "0.4.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -3617,16 +3504,15 @@
     "license": null,
     "homepage": "https://github.com/tobiasrausch/delly",
     "versions": {
-      "stable": "0.8.3",
-      "devel": null,
+      "stable": "0.8.5",
       "head": null,
       "bottle": true
     },
     "urls": {
       "stable": {
         "url": "https://github.com/tobiasrausch/delly.git",
-        "tag": "v0.8.3",
-        "revision": "56ab2900da269568dc327045913ae77ff3919df1"
+        "tag": "v0.8.5",
+        "revision": "0881a99c06b579586f6350f27bf85fe2a1e20ff6"
       }
     },
     "revision": 0,
@@ -3634,17 +3520,17 @@
     "bottle": {
       "stable": {
         "rebuild": 0,
-        "cellar": ":any_skip_relocation",
+        "cellar": ":any",
         "prefix": "/home/linuxbrew/.linuxbrew",
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
           "catalina": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/delly-0.8.3.catalina.bottle.tar.gz",
-            "sha256": "58c163c66ccc974146287df238ddbfb073c54486636ab12578b57997710b5347"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/delly-0.8.5.catalina.bottle.tar.gz",
+            "sha256": "cef13a263a84ec23a8708f909345c1cdbfa000135d9c21dc0a00b45d91f1aed6"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/delly-0.8.3.x86_64_linux.bottle.tar.gz",
-            "sha256": "6f65366a9da00ccad5206d0bb5c13ee6a7d304cde81db49609b31ab51dcae13b"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/delly-0.8.5.x86_64_linux.bottle.tar.gz",
+            "sha256": "9453aaa771a707a430ac9f82a41ef086df4572b55244fa1a0a9d2471c6db52b5"
           }
         }
       }
@@ -3687,7 +3573,6 @@
     "homepage": "https://www.bcgsc.ca/platform/bioinfo/software/dida",
     "versions": {
       "stable": "1.0.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -3750,7 +3635,6 @@
     "homepage": "https://www.broadinstitute.org/software/discovar/blog/",
     "versions": {
       "stable": "52488",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -3815,13 +3699,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Compute a distance matrix from a core genome alignment file",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/c2-d2/disty",
     "versions": {
       "stable": "0.1.0",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -3879,13 +3760,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Tools for BED, FASTA, FASTQ, GFA1/2, GFF3, SAM, and VCF files",
-    "license": [
-      "LGPL-3.0"
-    ],
+    "license": "LGPL-3.0",
     "homepage": "https://github.com/heuermh/dishevelled-bio",
     "versions": {
       "stable": "1.3.4",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -3943,13 +3821,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Whole Genome Simulator for Next-Generation Sequencing",
-    "license": [
-      "GPL-2.0"
-    ],
+    "license": "GPL-2.0",
     "homepage": "https://github.com/nh13/DWGSIM",
     "versions": {
       "stable": "0.1.12",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -4009,13 +3884,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Efficiently compute MEMs between large genomes",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0-or-later",
     "homepage": "https://www.csd.uwo.ca/~ilie/E-MEM/",
     "versions": {
       "stable": "1.0.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -4026,7 +3898,7 @@
         "revision": null
       }
     },
-    "revision": 0,
+    "revision": 1,
     "version_scheme": 0,
     "bottle": {
       "stable": {
@@ -4035,13 +3907,13 @@
         "prefix": "/home/linuxbrew/.linuxbrew",
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
-          "sierra": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/e-mem-1.0.1.sierra.bottle.tar.gz",
-            "sha256": "3c9a845ba5cae921c0fce986c5245e5fc58583c294ca75190afccbaf80bce58f"
+          "catalina": {
+            "url": "https://linuxbrew.bintray.com/bottles-bio/e-mem-1.0.1_1.catalina.bottle.tar.gz",
+            "sha256": "ff057c192242eb21d9392b1e616eaa579b301b90c608a49ce3a90e6d65015f79"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/e-mem-1.0.1.x86_64_linux.bottle.tar.gz",
-            "sha256": "76369dd5a7d236a62f5b64c69a9f171b7db2c2f5a6e090a253e266e6d920df04"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/e-mem-1.0.1_1.x86_64_linux.bottle.tar.gz",
+            "sha256": "badf5104b21d2f5d99031c6b65af178071b022d11c187f76b6ad2fe684b660bc"
           }
         }
       }
@@ -4077,7 +3949,6 @@
     "homepage": "https://github.com/EddyRivasLab/easel",
     "versions": {
       "stable": "0.46",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -4140,14 +4011,13 @@
     "license": null,
     "homepage": "https://www.ncbi.nlm.nih.gov/books/NBK179288/",
     "versions": {
-      "stable": "12.4",
-      "devel": null,
+      "stable": "13.8",
       "head": null,
       "bottle": true
     },
     "urls": {
       "stable": {
-        "url": "https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/12.4.20191101/edirect-12.4.20191101.tar.gz",
+        "url": "https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/13.8.20200827/edirect-13.8.20200827.tar.gz",
         "tag": null,
         "revision": null
       }
@@ -4157,17 +4027,17 @@
     "bottle": {
       "stable": {
         "rebuild": 0,
-        "cellar": ":any_skip_relocation",
+        "cellar": ":any",
         "prefix": "/home/linuxbrew/.linuxbrew",
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
-          "mojave": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/edirect-12.4.mojave.bottle.tar.gz",
-            "sha256": "37abb2f97bb0260af84499300935e4fec412fcf385d1f2e303eb681876b47877"
+          "catalina": {
+            "url": "https://linuxbrew.bintray.com/bottles-bio/edirect-13.8.catalina.bottle.tar.gz",
+            "sha256": "d24f466c08c865c1866212c03969c0597512ede63f0193e1dd1fef31f8e6de16"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/edirect-12.4.x86_64_linux.bottle.tar.gz",
-            "sha256": "e2fcc5996db0db2bb916e14d4925883d542271c397bf949f6c45d27b9aa4cc4d"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/edirect-13.8.x86_64_linux.bottle.tar.gz",
+            "sha256": "ef5637b3c12ad99ef415c38c441f00537b0bea6bffb615253cc3ca477d0b741d"
           }
         }
       }
@@ -4207,7 +4077,6 @@
     "homepage": "http://www.cbcb.umd.edu/software/elph/",
     "versions": {
       "stable": "1.0.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -4263,13 +4132,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Fast and accurate alignment of linked reads",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "http://ema.csail.mit.edu",
     "versions": {
       "stable": "0.6.2",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -4327,13 +4193,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "European Molecular Biology Open Software Suite",
-    "license": [
-      "GPL-2.0"
-    ],
+    "license": "GPL-2.0",
     "homepage": "https://emboss.sourceforge.io/",
     "versions": {
       "stable": "6.6.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -4423,13 +4286,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Massively parallel phylogenetic placement of genetic sequences",
-    "license": [
-      "AGPL-3.0"
-    ],
+    "license": "AGPL-3.0",
     "homepage": "https://github.com/Pbdas/epa-ng",
     "versions": {
       "stable": "0.3.7",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -4495,7 +4355,6 @@
     "homepage": "https://sco.h-its.org/exelixis/web/software/exabayes/",
     "versions": {
       "stable": "1.5",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -4562,13 +4421,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Pairwise sequence alignment of DNA and proteins",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://www.ebi.ac.uk/about/vertebrate-genomics/software/exonerate",
     "versions": {
       "stable": "2.4.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -4628,13 +4484,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Streaming quantification for sequencing",
-    "license": [
-      "Artistic-2.0"
-    ],
+    "license": "Artistic-2.0",
     "homepage": "http://bio.math.berkeley.edu/eXpress/",
     "versions": {
       "stable": "1.5.3",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -4702,7 +4555,6 @@
     "homepage": "https://faculty.virginia.edu/wrpearson/fasta/",
     "versions": {
       "stable": "36.3.8h",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -4760,13 +4612,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Fast Whole-Genome Similarity (ANI) Estimation",
-    "license": [
-      "Apache-2.0"
-    ],
+    "license": "Apache-2.0",
     "homepage": "https://github.com/ParBLiSS/FastANI",
     "versions": {
       "stable": "1.31",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -4828,13 +4677,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Ultrafast all-in-one FASTQ preprocessor",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/OpenGene/fastp",
     "versions": {
       "stable": "0.20.1",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -4892,13 +4738,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Fast efficient re-pairing of FASTQ files",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/linsalrob/fastq-pair",
     "versions": {
       "stable": "1.0",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -4960,7 +4803,6 @@
     "homepage": "http://microbesonline.org/fasttree/",
     "versions": {
       "stable": "2.1.11",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -5020,7 +4862,6 @@
     "homepage": "https://sourceforge.net/projects/fastuniq/",
     "versions": {
       "stable": "1.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -5076,13 +4917,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Assembling Illumina short reads in small regions",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/lh3/fermi-lite",
     "versions": {
       "stable": "0.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -5144,7 +4982,6 @@
     "homepage": "http://tree.bio.ed.ac.uk/software/figtree/",
     "versions": {
       "stable": "1.4.4",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -5202,13 +5039,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Quality filtering of long noisy DNA sequencing reads",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/rrwick/Filtlong",
     "versions": {
       "stable": "0.2.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -5266,13 +5100,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Genomic minhashing implementation in Rust",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/onecodex/finch-rs",
     "versions": {
       "stable": "0.3.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -5332,13 +5163,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Merge mates from overlapping fragments",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://ccb.jhu.edu/software/FLASH/",
     "versions": {
       "stable": "1.2.11",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -5396,13 +5224,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Nextflow pipeline assembler for genomics",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/assemblerflow/flowcraft",
     "versions": {
       "stable": "1.4.1",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -5461,13 +5286,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Fast and accurate de novo assembler for single molecule sequencing reads",
-    "license": [
-      "BSD-3-Clause"
-    ],
+    "license": "BSD-3-Clause",
     "homepage": "https://github.com/fenderglass/Flye",
     "versions": {
       "stable": "2.8",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -5501,7 +5323,9 @@
     "keg_only": false,
     "bottle_disabled": false,
     "options": [],
-    "build_dependencies": [],
+    "build_dependencies": [
+      "unzip"
+    ],
     "dependencies": [
       "python@3.8"
     ],
@@ -5529,7 +5353,6 @@
     "homepage": "https://omics.informatics.indiana.edu/FragGeneScan/",
     "versions": {
       "stable": "1.31",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -5587,13 +5410,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Bayesian variant discovery and genotyping",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/ekg/freebayes",
     "versions": {
       "stable": "1.3.2",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -5658,13 +5478,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "C++ template library for forward-time population genetic simulations",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://molpopgen.github.io/fwdpp/",
     "versions": {
       "stable": "0.8.1",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -5732,13 +5549,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Genesis Applications for Phylogenetic Placement Analysis",
-    "license": [
-      "GPL-3.0-or-later"
-    ],
+    "license": "GPL-3.0-or-later",
     "homepage": "https://github.com/lczech/gappa",
     "versions": {
       "stable": "0.6.1",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -5798,13 +5612,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Genome Analysis Toolkit: Variant Discovery in High-Throughput Sequencing",
-    "license": [
-      "BSD-3-Clause"
-    ],
+    "license": "BSD-3-Clause",
     "homepage": "https://software.broadinstitute.org/gatk",
     "versions": {
       "stable": "4.1.8.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -5869,7 +5680,6 @@
     "homepage": "http://molevol.cmima.csic.es/castresana/Gblocks.html",
     "versions": {
       "stable": "0.91b",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -5927,13 +5737,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Linear mixed models (LMMs) for genome-wide association (GWA)",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/genetics-statistics/gemma",
     "versions": {
       "stable": "0.98.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -5999,7 +5806,6 @@
     "homepage": "https://www.ebi.ac.uk/~birney/wise2/",
     "versions": {
       "stable": "2.4.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -6059,13 +5865,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Paint genomes with taxa-specific k-mer probabilities",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0-or-later",
     "homepage": "https://github.com/scwatts/genome_painter",
     "versions": {
       "stable": "0.0.8",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -6076,7 +5879,7 @@
         "revision": null
       }
     },
-    "revision": 0,
+    "revision": 1,
     "version_scheme": 0,
     "bottle": {
       "stable": {
@@ -6086,12 +5889,12 @@
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
           "catalina": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/genome-painter-0.0.8.catalina.bottle.tar.gz",
-            "sha256": "abb5dcc8c48f0bf65f997fb5d78b6200c8f9ad8a4493670faaf4bd0bc676cd0b"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/genome-painter-0.0.8_1.catalina.bottle.tar.gz",
+            "sha256": "2863469c5132cfcc1a47fdaff7539bb3454534e222b98c75dc919db08b07f002"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/genome-painter-0.0.8.x86_64_linux.bottle.tar.gz",
-            "sha256": "f21a21128af05cdf73453c466b683feb79546bf9f2244495b9e14de04cb04d11"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/genome-painter-0.0.8_1.x86_64_linux.bottle.tar.gz",
+            "sha256": "0c2f781971f00a75841e3a3d1813665374d89eb8d4adad5bf87cde385fd5bf95"
           }
         }
       }
@@ -6105,7 +5908,6 @@
       "libtool"
     ],
     "dependencies": [
-      "gcc",
       "zlib"
     ],
     "recommended_dependencies": [],
@@ -6128,13 +5930,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Genome Pair Rapid Dotter",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "http://cube.univie.ac.at/gepard",
     "versions": {
       "stable": "1.40",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -6188,13 +5987,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "C++ library and utilities for Graphical Fragment Assembly (GFA)",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/edawson/gfakluge",
     "versions": {
       "stable": "1.1.2",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -6252,13 +6048,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Check a GFA file for syntax errors",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://sjackman.ca/gfalint/",
     "versions": {
       "stable": "1.0.0",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -6318,7 +6111,6 @@
     "homepage": "https://github.com/lh3/gfa1",
     "versions": {
       "stable": "0.0.53",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -6370,6 +6162,65 @@
     "disabled": false
   },
   {
+    "name": "gffcompare",
+    "full_name": "seekingmeaning/bio/gffcompare",
+    "oldname": null,
+    "aliases": [],
+    "versioned_formulae": [],
+    "desc": "Classify, merge, tracking and annotation of GFF files",
+    "license": "MIT",
+    "homepage": "https://github.com/gpertea/gffcompare",
+    "versions": {
+      "stable": "0.12.1",
+      "head": "HEAD",
+      "bottle": true
+    },
+    "urls": {
+      "stable": {
+        "url": "https://github.com/gpertea/gffcompare/releases/download/v0.12.1/gffcompare-0.12.1.tar.gz",
+        "tag": null,
+        "revision": null
+      }
+    },
+    "revision": 0,
+    "version_scheme": 0,
+    "bottle": {
+      "stable": {
+        "rebuild": 0,
+        "cellar": ":any_skip_relocation",
+        "prefix": "/home/linuxbrew/.linuxbrew",
+        "root_url": "https://linuxbrew.bintray.com/bottles-bio",
+        "files": {
+          "catalina": {
+            "url": "https://linuxbrew.bintray.com/bottles-bio/gffcompare-0.12.1.catalina.bottle.tar.gz",
+            "sha256": "2f54276ea7daef17a81e190e879561bd78bbf21d55f1b4b3e95e5daf451aa002"
+          },
+          "x86_64_linux": {
+            "url": "https://linuxbrew.bintray.com/bottles-bio/gffcompare-0.12.1.x86_64_linux.bottle.tar.gz",
+            "sha256": "a319df4c6334df1792496c3aed4bcfeb411c967510d54110abbb13208eebe37c"
+          }
+        }
+      }
+    },
+    "keg_only": false,
+    "bottle_disabled": false,
+    "options": [],
+    "build_dependencies": [],
+    "dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "requirements": [],
+    "conflicts_with": [],
+    "caveats": null,
+    "installed": [],
+    "linked_keg": null,
+    "pinned": false,
+    "outdated": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
     "name": "ghostz",
     "full_name": "seekingmeaning/bio/ghostz",
     "oldname": null,
@@ -6380,7 +6231,6 @@
     "homepage": "https://www.bi.cs.titech.ac.jp/ghostz/",
     "versions": {
       "stable": "1.0.2",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -6391,22 +6241,22 @@
         "revision": null
       }
     },
-    "revision": 1,
+    "revision": 2,
     "version_scheme": 0,
     "bottle": {
       "stable": {
         "rebuild": 0,
-        "cellar": ":any_skip_relocation",
+        "cellar": ":any",
         "prefix": "/home/linuxbrew/.linuxbrew",
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
-          "mojave": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/ghostz-1.0.2_1.mojave.bottle.tar.gz",
-            "sha256": "45e205642232766d1206e06df7a4e52eea960663b0d520d6f943866db554e596"
+          "catalina": {
+            "url": "https://linuxbrew.bintray.com/bottles-bio/ghostz-1.0.2_2.catalina.bottle.tar.gz",
+            "sha256": "83d5a026cd37f8f8004b146c968301c627856dc5fb2a7f88489e8e2cb51866f3"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/ghostz-1.0.2_1.x86_64_linux.bottle.tar.gz",
-            "sha256": "ce5f132a6ed9a711bffae6648b18f701f55d965e611ef7320847aee24061a19e"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/ghostz-1.0.2_2.x86_64_linux.bottle.tar.gz",
+            "sha256": "b71ef02728bee3edef32461d52e7694eb4fb99d33ec4a552bd1936a948bc8156"
           }
         }
       }
@@ -6415,9 +6265,7 @@
     "bottle_disabled": false,
     "options": [],
     "build_dependencies": [],
-    "dependencies": [
-      "gcc"
-    ],
+    "dependencies": [],
     "recommended_dependencies": [],
     "optional_dependencies": [],
     "uses_from_macos": [],
@@ -6442,7 +6290,6 @@
     "homepage": "http://research-pub.gene.com/gmap/",
     "versions": {
       "stable": "2019-09-12",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -6502,13 +6349,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Resistome profiler for Graphing Resistance Out Of meTagenomes",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/will-rowe/groot",
     "versions": {
       "stable": "1.1.2",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -6568,7 +6412,6 @@
     "homepage": "https://www.cs.unc.edu/Research/compgeom/gzstream/",
     "versions": {
       "stable": "1.5",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -6630,7 +6473,6 @@
     "homepage": "https://github.com/marbl/harvest-tools",
     "versions": {
       "stable": "1.3",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -6692,24 +6534,21 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Remote protein homology detection suite",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0-only",
     "homepage": "https://github.com/soedinglab/hh-suite",
     "versions": {
-      "stable": "3.2.0",
-      "devel": null,
+      "stable": "3.3.0",
       "head": null,
       "bottle": true
     },
     "urls": {
       "stable": {
-        "url": "https://github.com/soedinglab/hh-suite/archive/v3.2.0.tar.gz",
+        "url": "https://github.com/soedinglab/hh-suite/archive/v3.3.0.tar.gz",
         "tag": null,
         "revision": null
       }
     },
-    "revision": 1,
+    "revision": 0,
     "version_scheme": 0,
     "bottle": {
       "stable": {
@@ -6719,12 +6558,12 @@
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
           "catalina": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/hh-suite-3.2.0_1.catalina.bottle.tar.gz",
-            "sha256": "145cff156ee16d6ab8cf0b335cc93b53fc4d4c028a9b6733b02585f8f0565791"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/hh-suite-3.3.0.catalina.bottle.tar.gz",
+            "sha256": "cf7755f126cea9f05843022ec5b7e7d193722c568bbecd3bc41f88ac7d32ac28"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/hh-suite-3.2.0_1.x86_64_linux.bottle.tar.gz",
-            "sha256": "c14d716a6c586cd1e6fe2cd2745bf3d4606f810a89eff0cc14cdfe70cb624a2a"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/hh-suite-3.3.0.x86_64_linux.bottle.tar.gz",
+            "sha256": "5a573d69a999513ead717a21b8d0bca07889c174bb1431bb74f4aa05ff879f48"
           }
         }
       }
@@ -6736,7 +6575,7 @@
       "cmake"
     ],
     "dependencies": [
-      "python",
+      "python@3.9",
       "perl"
     ],
     "recommended_dependencies": [],
@@ -6759,19 +6598,16 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Graph-based alignment to a population of genomes",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://daehwankimlab.github.io/hisat2/",
     "versions": {
-      "stable": "2.2.0",
-      "devel": null,
+      "stable": "2.2.1",
       "head": "HEAD",
       "bottle": true
     },
     "urls": {
       "stable": {
-        "url": "https://github.com/DaehwanKimLab/hisat2/archive/v2.2.0.tar.gz",
+        "url": "https://github.com/DaehwanKimLab/hisat2/archive/v2.2.1.tar.gz",
         "tag": null,
         "revision": null
       }
@@ -6781,17 +6617,17 @@
     "bottle": {
       "stable": {
         "rebuild": 0,
-        "cellar": ":any_skip_relocation",
+        "cellar": ":any",
         "prefix": "/home/linuxbrew/.linuxbrew",
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
           "catalina": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/hisat2-2.2.0.catalina.bottle.tar.gz",
-            "sha256": "fa0b379de74c8f9b952d57693a93d8d7f664ca476d970608a25f3d1786c3d94e"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/hisat2-2.2.1.catalina.bottle.tar.gz",
+            "sha256": "2b5b75097703eca1abde911453cf0751395f52d07c7e9d437becd35b8f5b3290"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/hisat2-2.2.0.x86_64_linux.bottle.tar.gz",
-            "sha256": "0266c2eaad48f32bbe1b8ba9ed39e6fae3d9c1fbfb70f285d9bf2960d5093842"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/hisat2-2.2.1.x86_64_linux.bottle.tar.gz",
+            "sha256": "81d4a8bdf5de5751f06def926c8f7b39b2ee9e1d48905fbe7084cdaa0238f8b1"
           }
         }
       }
@@ -6825,7 +6661,6 @@
     "homepage": "http://hmmer.org/",
     "versions": {
       "stable": "2.4i",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -6884,12 +6719,11 @@
     "oldname": null,
     "aliases": [],
     "versioned_formulae": [],
-    "desc": "HUMAnN2: The HMP Unified Metabolic Analysis Network",
+    "desc": "HMP Unified Metabolic Analysis Network",
     "license": null,
     "homepage": "https://huttenhower.sph.harvard.edu/humann",
     "versions": {
       "stable": "0.11.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -6954,7 +6788,6 @@
     "homepage": "https://i.cs.hku.hk/~alse/hkubrg/projects/idba/",
     "versions": {
       "stable": "1.1.3",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -7017,7 +6850,6 @@
     "homepage": "http://bioinfolab.unl.edu/~cstrope/iSG/",
     "versions": {
       "stable": "2.1.03",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -7084,7 +6916,6 @@
     "homepage": "http://abacus.gene.ucl.ac.uk/software/indelible/",
     "versions": {
       "stable": "1.03",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -7144,7 +6975,6 @@
     "homepage": "http://eddylab.org/infernal/",
     "versions": {
       "stable": "1.1.3",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -7200,13 +7030,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Efficient phylogenomic software by maximum likelihood",
-    "license": [
-      "GPL-2.0"
-    ],
+    "license": "GPL-2.0",
     "homepage": "http://www.iqtree.org/",
     "versions": {
       "stable": "1.6.12",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -7268,13 +7095,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Efficient phylogenomic software by maximum likelihood",
-    "license": [
-      "GPL-2.0"
-    ],
+    "license": "GPL-2.0",
     "homepage": "http://www.iqtree.org/",
     "versions": {
       "stable": "2.0.7",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -7341,7 +7165,6 @@
     "homepage": "http://hgwdev.cse.ucsc.edu/~kent/src/",
     "versions": {
       "stable": "33",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -7399,13 +7222,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Iterative Virus Assembler",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/sanger-pathogens/iva",
     "versions": {
       "stable": "1.0.9",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -7468,19 +7288,16 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Viral amplicon-based sequencing pipeline",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/andersen-lab/ivar",
     "versions": {
-      "stable": "1.2.2",
-      "devel": null,
+      "stable": "1.2.3",
       "head": null,
       "bottle": true
     },
     "urls": {
       "stable": {
-        "url": "https://github.com/andersen-lab/ivar/archive/v1.2.2.tar.gz",
+        "url": "https://github.com/andersen-lab/ivar/archive/v1.2.3.tar.gz",
         "tag": null,
         "revision": null
       }
@@ -7495,12 +7312,12 @@
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
           "catalina": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/ivar-1.2.2.catalina.bottle.tar.gz",
-            "sha256": "5f58bf0568e9a1fea3ef86f367aa834c2df723dd0ac86a516c4a0d0c568955c2"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/ivar-1.2.3.catalina.bottle.tar.gz",
+            "sha256": "ac28808f052954afd38d7a9458fb04691f9dd21ed7f157e600efdab5eb8b1326"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/ivar-1.2.2.x86_64_linux.bottle.tar.gz",
-            "sha256": "6457f2f6687d1b86b1ffd7448841d416561378302bfe288cf4504bf02dfda516"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/ivar-1.2.3.x86_64_linux.bottle.tar.gz",
+            "sha256": "913b6ba7011e59d2f2708021b731c986fe499bc3647c3da0c0e7c9ceecc6b2d9"
           }
         }
       }
@@ -7541,7 +7358,6 @@
     "homepage": "http://www.genome.umd.edu/jellyfish.html",
     "versions": {
       "stable": "2.3.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -7601,7 +7417,6 @@
     "homepage": "https://imedea.uib-csic.es/jspecies/index.html",
     "versions": {
       "stable": "1.2.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -7661,7 +7476,6 @@
     "homepage": "https://github.com/attractivechaos/k8",
     "versions": {
       "stable": "0.2.5",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -7721,13 +7535,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Fast taxonomic classification of metagenomic sequencing reads",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "http://kaiju.binf.ku.dk/",
     "versions": {
       "stable": "1.7.3",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -7786,13 +7597,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "SIMD accelerated multiple sequence alignment",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/TimoLassmann/kalign",
     "versions": {
       "stable": "3.2.3",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -7853,13 +7661,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "K-mer Analysis Toolkit (KAT) analyses k-mer spectra",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/TGAC/KAT",
     "versions": {
       "stable": "2.4.1",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -7926,7 +7731,6 @@
     "homepage": "https://genome.ucsc.edu/",
     "versions": {
       "stable": "401",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -7992,14 +7796,13 @@
     "license": null,
     "homepage": "https://bitbucket.org/genomicepidemiology/kma",
     "versions": {
-      "stable": "1.3.3",
-      "devel": null,
+      "stable": "1.3.6",
       "head": null,
       "bottle": true
     },
     "urls": {
       "stable": {
-        "url": "https://bitbucket.org/genomicepidemiology/kma/get/1.3.3.zip",
+        "url": "https://bitbucket.org/genomicepidemiology/kma/get/1.3.6.zip",
         "tag": null,
         "revision": null
       }
@@ -8014,12 +7817,12 @@
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
           "catalina": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/kma-1.3.3.catalina.bottle.tar.gz",
-            "sha256": "1ac1b89fc3e971452dbab07c2853f5bb0a9f54a8e3aa7e93b8b4bf4bb639c582"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/kma-1.3.6.catalina.bottle.tar.gz",
+            "sha256": "e8986aca613c9b2c302cf25484d17d1e7f1dfef0d395d9b142f52cda3171fffc"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/kma-1.3.3.x86_64_linux.bottle.tar.gz",
-            "sha256": "f547bbac1954b231161e8d5f4d65f70058f1fe6e7620e1b3889b4e1427f8caa9"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/kma-1.3.6.x86_64_linux.bottle.tar.gz",
+            "sha256": "95351af4a7d8e9ece5040641c8c53a4e28938f73e966dbd1670743ea1c677c82"
           }
         }
       }
@@ -8057,7 +7860,6 @@
     "homepage": "http://sun.aei.polsl.pl/kmc/",
     "versions": {
       "stable": "3.1.1",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -8121,7 +7923,6 @@
     "homepage": "http://kmergenie.bx.psu.edu/",
     "versions": {
       "stable": "1.7048",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -8181,13 +7982,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Generate multi-sample k-mer count matrix",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/tseemann/kounta",
     "versions": {
       "stable": "0.2.3",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -8251,7 +8049,6 @@
     "homepage": "http://guanine.evolbio.mpg.de/cgi-bin/kr2/kr.cgi.pl",
     "versions": {
       "stable": "2.0.2",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -8309,13 +8106,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Assign taxonomic labels to short DNA sequences",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://ccb.jhu.edu/software/kraken/",
     "versions": {
       "stable": "1.1.1",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -8371,13 +8165,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Taxonomic sequence classification system",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/DerrickWood/kraken2",
     "versions": {
       "stable": "2.0.9",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -8440,7 +8231,6 @@
     "homepage": "https://github.com/yhg926/public_kssd",
     "versions": {
       "stable": "1.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -8502,19 +8292,16 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Find similar regions between sequences",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "http://last.cbrc.jp/",
     "versions": {
-      "stable": "1061",
-      "devel": null,
+      "stable": "1133",
       "head": "HEAD",
       "bottle": true
     },
     "urls": {
       "stable": {
-        "url": "http://last.cbrc.jp/last-1061.zip",
+        "url": "http://last.cbrc.jp/last-1133.zip",
         "tag": null,
         "revision": null
       }
@@ -8529,12 +8316,12 @@
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
           "catalina": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/last-1061.catalina.bottle.tar.gz",
-            "sha256": "26a9965e1ac0c66c7ca8e77947356b13304b61080e1b1d7f81d783e092977398"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/last-1133.catalina.bottle.tar.gz",
+            "sha256": "66dccf49e7f904abd138fbfc83d0bdaf4800884a76d2f8aa55bc625432b2295d"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/last-1061.x86_64_linux.bottle.tar.gz",
-            "sha256": "37812f372df4253a73c1d24a4df7a14582d3a85963e2273655a611a23ac57e2f"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/last-1133.x86_64_linux.bottle.tar.gz",
+            "sha256": "36f3304a2a5d139dc3192c6126b8ed281fa7882ad2712f65e9576139dfb2dad8"
           }
         }
       }
@@ -8568,13 +8355,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Align DNA sequences, a pairwise aligner",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://www.bx.psu.edu/~rsharris/lastz/",
     "versions": {
       "stable": "1.04.03",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -8630,13 +8414,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "In silico Legionella pneumophila Sequence Based Typing",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/tseemann/legsta",
     "versions": {
       "stable": "0.5.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -8695,13 +8476,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "C library for processing the big UCSC fomats",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/dpryan79/libBigWig",
     "versions": {
       "stable": "0.4.4",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -8760,13 +8538,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Lightweight suffix-sorting library",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/y-256/libdivsufsort",
     "versions": {
       "stable": "2.0.1",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -8828,7 +8603,6 @@
     "homepage": "https://github.com/COMBINE-lab/libgff",
     "versions": {
       "stable": "2.0.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -8888,13 +8662,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Phylogenetic likelihood library",
-    "license": [
-      "AGPL-3.0"
-    ],
+    "license": "AGPL-3.0",
     "homepage": "https://github.com/xflouris/libpll",
     "versions": {
       "stable": "0.3.2",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -8956,13 +8727,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "C++ library for evolutionary genetics",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://molpopgen.github.io/libsequence/",
     "versions": {
       "stable": "1.9.8",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -9018,13 +8786,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Lightweight resources NGS assembly algorithm",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/SaraEl-Metwally/LightAssembler",
     "versions": {
       "stable": "1.0.0",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -9082,13 +8847,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Fast and memory-efficient sequencing error corrector",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/mourisl/Lighter",
     "versions": {
       "stable": "1.1.2",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -9146,13 +8908,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Long Interval Nucleotide K-mer Scaffolder",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://www.bcgsc.ca/platform/bioinfo/software/links",
     "versions": {
       "stable": "1.8.7",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -9216,7 +8975,6 @@
     "homepage": "https://csb5.github.io/lofreq/",
     "versions": {
       "stable": "2.1.3.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -9279,13 +9037,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "10x Genomics Reads Simulator",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/aquaskyline/LRSIM",
     "versions": {
       "stable": "1.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -9344,13 +9099,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Least-squares method to estimate rates and dates from phylogenies",
-    "license": [
-      "GPL-2.0"
-    ],
+    "license": "GPL-2.0",
     "homepage": "https://github.com/tothuhien/lsd2",
     "versions": {
       "stable": "1.7.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -9405,12 +9157,11 @@
     "oldname": null,
     "aliases": [],
     "versioned_formulae": [],
-    "desc": "Magic BLAST read mapper",
+    "desc": "Map RNA or DNA sequencing against a whole genome or transcriptome",
     "license": null,
     "homepage": "https://ncbi.github.io/magicblast/",
     "versions": {
       "stable": "1.3.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -9477,7 +9228,6 @@
     "homepage": "https://www.yandell-lab.org/software/maker.html",
     "versions": {
       "stable": "2.31.11",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -9551,13 +9301,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Combined short-read alignment and variant detection",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/hsinnan75/MapCaller",
     "versions": {
       "stable": "0.9.9.39",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -9622,7 +9369,6 @@
     "homepage": "https://github.com/marbl/Mash",
     "versions": {
       "stable": "2.2.2",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -9687,13 +9433,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Maryland Super-Read Celera Assembler",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://masurca.blogspot.com/",
     "versions": {
       "stable": "3.4.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -9765,7 +9508,6 @@
     "homepage": "https://matplotlib.org",
     "versions": {
       "stable": "2.2.5",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -9843,7 +9585,6 @@
     "homepage": "https://sourceforge.net/projects/maxbin2/",
     "versions": {
       "stable": "2.2.7",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -9914,7 +9655,6 @@
     "homepage": "https://micans.org/mcl",
     "versions": {
       "stable": "14-137",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -9970,13 +9710,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Ultra-fast SMP/GPU succinct DBG metagenome assembly",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/voutcn/megahit",
     "versions": {
       "stable": "1.2.9",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -10042,7 +9779,6 @@
     "homepage": "http://meme-suite.org",
     "versions": {
       "stable": "5.1.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -10110,7 +9846,6 @@
     "homepage": "https://bitbucket.org/berkeleylab/metabat/",
     "versions": {
       "stable": "2.15",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -10175,12 +9910,11 @@
     "oldname": null,
     "aliases": [],
     "versioned_formulae": [],
-    "desc": "MetaPhlAn: Metagenomic Phylogenetic Analysis",
+    "desc": "Metagenomic Phylogenetic Analysis",
     "license": null,
     "homepage": "https://huttenhower.sph.harvard.edu/metaphlan",
     "versions": {
       "stable": "1.7.8",
-      "devel": null,
       "head": null,
       "bottle": false
     },
@@ -10223,13 +9957,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "MinHash Alignment Process",
-    "license": [
-      "Apache-2.0"
-    ],
+    "license": "Apache-2.0",
     "homepage": "https://github.com/marbl/MHAP",
     "versions": {
       "stable": "2.1.3",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -10287,13 +10018,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Mining CRISPRs in Environmental Datasets",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/ctSkennerton/minced",
     "versions": {
       "stable": "0.4.2",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -10351,13 +10079,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Short-read assembler based on a de Bruijn graph",
-    "license": [
-      "AGPL-3.0"
-    ],
+    "license": "AGPL-3.0",
     "homepage": "http://minia.genouest.org/",
     "versions": {
       "stable": "3.2.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -10417,13 +10142,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Ultrafast de novo assembly for long noisy reads",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/lh3/miniasm",
     "versions": {
       "stable": "0.3",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -10481,13 +10203,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Proof-of-concept seq-to-graph mapper and graph generator",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://lh3.github.io/minigraph",
     "versions": {
       "stable": "0.10",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -10546,13 +10265,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Find approx mapping positions between long sequences",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/lh3/minimap",
     "versions": {
       "stable": "0.2",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -10614,7 +10330,6 @@
     "homepage": "https://github.com/lh3/minimap2",
     "versions": {
       "stable": "2.17",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -10677,7 +10392,6 @@
     "homepage": "https://github.com/hangelwen/miR-PREFeR",
     "versions": {
       "stable": "0.24",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -10744,13 +10458,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Multi-Locus Sequence Typing of bacterial contigs",
-    "license": [
-      "GPL-2.0"
-    ],
+    "license": "GPL-2.0",
     "homepage": "https://github.com/tseemann/mlst",
     "versions": {
       "stable": "2.19.0",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -10814,14 +10525,11 @@
     "oldname": null,
     "aliases": [],
     "versioned_formulae": [],
-    "desc": "The pure C++ implementation of the MMTF API, decoder and encoder",
-    "license": [
-      "MIT"
-    ],
+    "desc": "Pure C++ implementation of the MMTF API, decoder and encoder",
+    "license": "MIT",
     "homepage": "https://github.com/rcsb/mmtf-cpp",
     "versions": {
       "stable": "1.0.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -10882,19 +10590,16 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Fast BAM/CRAM depth calculator",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/brentp/mosdepth",
     "versions": {
-      "stable": "0.2.9",
-      "devel": null,
+      "stable": "0.3.1",
       "head": null,
       "bottle": true
     },
     "urls": {
       "stable": {
-        "url": "https://github.com/brentp/mosdepth/releases/download/v0.2.9/mosdepth",
+        "url": "https://github.com/brentp/mosdepth/releases/download/v0.3.1/mosdepth",
         "tag": null,
         "revision": null
       }
@@ -10909,8 +10614,8 @@
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/mosdepth-0.2.9.x86_64_linux.bottle.tar.gz",
-            "sha256": "3f26c70c2d74e872b3b925ad5701cb3c39d9b7b216fda9cad5f436c7967bd91e"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/mosdepth-0.3.1.x86_64_linux.bottle.tar.gz",
+            "sha256": "28f0f2a6c62cd8543a9f85404c63f861562a25c62dd21bf5c2186d81198be791"
           }
         }
       }
@@ -10948,19 +10653,16 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "16s analysis software",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://mothur.org/",
     "versions": {
-      "stable": "1.44.2",
-      "devel": null,
+      "stable": "1.44.3",
       "head": "HEAD",
       "bottle": true
     },
     "urls": {
       "stable": {
-        "url": "https://github.com/mothur/mothur/archive/v1.44.2.tar.gz",
+        "url": "https://github.com/mothur/mothur/archive/v1.44.3.tar.gz",
         "tag": null,
         "revision": null
       }
@@ -10975,12 +10677,12 @@
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
           "catalina": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/mothur-1.44.2.catalina.bottle.tar.gz",
-            "sha256": "c0c11054955bb00d49c7b0e0d4eec7e3314cad1596e26878d6d99f39cf5b2c96"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/mothur-1.44.3.catalina.bottle.tar.gz",
+            "sha256": "c620df4847160e97694e4871c6b7b856262e07f72a1f36a78ef39cd2c1dc2032"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/mothur-1.44.2.x86_64_linux.bottle.tar.gz",
-            "sha256": "6dd047aa176b43cff1d5058bc684eb9b350bdb26e77cf75ef7d6e089a5e0f488"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/mothur-1.44.3.x86_64_linux.bottle.tar.gz",
+            "sha256": "890a3599359b95cebf84704a746e57c14cad3a3bedd682f7fc6d013034b00497"
           }
         }
       }
@@ -11017,7 +10719,6 @@
     "homepage": "https://faculty.franklin.uga.edu/lliu/content/mp-est",
     "versions": {
       "stable": "2.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -11079,7 +10780,6 @@
     "homepage": "http://www.iqtree.org/mpboot/",
     "versions": {
       "stable": "1.1.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -11090,7 +10790,7 @@
         "revision": null
       }
     },
-    "revision": 0,
+    "revision": 1,
     "version_scheme": 0,
     "bottle": {
       "stable": {
@@ -11100,11 +10800,11 @@
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
           "catalina": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/mpboot-1.1.0.catalina.bottle.tar.gz",
+            "url": "https://linuxbrew.bintray.com/bottles-bio/mpboot-1.1.0_1.catalina.bottle.tar.gz",
             "sha256": "9f81b4335359b8427fee1737fca2939f63ff62cc0f03097302c9837a99736fdd"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/mpboot-1.1.0.x86_64_linux.bottle.tar.gz",
+            "url": "https://linuxbrew.bintray.com/bottles-bio/mpboot-1.1.0_1.x86_64_linux.bottle.tar.gz",
             "sha256": "1b0598dc6c2b93a62554e4d5189fb2a5b683f0e812706e7c9a4f61c9fcd227fb"
           }
         }
@@ -11142,13 +10842,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Bayesian inference of phylogenies and evolutionary models",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://nbisweden.github.io/MrBayes/",
     "versions": {
       "stable": "3.2.7",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -11214,13 +10911,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Identifying serial/tandem in DNA sequences",
-    "license": [
-      "GPL-2.0"
-    ],
+    "license": "GPL-2.0",
     "homepage": "https://github.com/gregorykucherov/mreps",
     "versions": {
       "stable": "2.6.01",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -11280,7 +10974,6 @@
     "homepage": "https://mummer.sourceforge.io/",
     "versions": {
       "stable": "3.23",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -11342,7 +11035,6 @@
     "homepage": "https://www.drive5.com/muscle/",
     "versions": {
       "stable": "3.8.1551",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -11398,13 +11090,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Filtering and trimming of long read sequencing data",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/wdecoster/nanofilt",
     "versions": {
       "stable": "2.7.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -11464,13 +11153,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Signal-level algorithms for MinION data",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/jts/nanopolish",
     "versions": {
       "stable": "0.12.0",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -11539,7 +11225,6 @@
     "homepage": "http://cegg.unige.ch/newick_utils",
     "versions": {
       "stable": "1.6",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -11601,13 +11286,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Data-driven computational pipelines",
-    "license": [
-      "Apache-2.0"
-    ],
+    "license": "Apache-2.0",
     "homepage": "https://www.nextflow.io/",
     "versions": {
       "stable": "20.07.1",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -11669,7 +11351,6 @@
     "homepage": "https://github.com/Cibiv/NextGenMap/wiki",
     "versions": {
       "stable": "0.5.5",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -11727,13 +11408,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "NG-MAST genotyping for Neisseria gonorrhoeae",
-    "license": [
-      "GPL-2.0"
-    ],
+    "license": "GPL-2.0",
     "homepage": "https://github.com/MDU-PHL/ngmaster",
     "versions": {
       "stable": "0.5.6",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -11793,13 +11471,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Merging paired-end reads and removing adapters",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/jsh58/NGmerge",
     "versions": {
       "stable": "0.3",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -11857,13 +11532,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Estimates coverage in metagenomic datasets",
-    "license": [
-      "Artistic-2.0"
-    ],
+    "license": "Artistic-2.0",
     "homepage": "http://enve-omics.ce.gatech.edu/nonpareil",
     "versions": {
       "stable": "3.3.4",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -11928,19 +11600,16 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Estimating k-mer coverage histogram of genomics data",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/bcgsc/ntCard",
     "versions": {
-      "stable": "1.2.1",
-      "devel": null,
+      "stable": "1.2.2",
       "head": "HEAD",
       "bottle": true
     },
     "urls": {
       "stable": {
-        "url": "https://github.com/bcgsc/ntCard/releases/download/1.2.1/ntcard-1.2.1.tar.gz",
+        "url": "https://github.com/bcgsc/ntCard/releases/download/1.2.2/ntcard-1.2.2.tar.gz",
         "tag": null,
         "revision": null
       }
@@ -11955,12 +11624,12 @@
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
           "catalina": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/ntcard-1.2.1.catalina.bottle.tar.gz",
-            "sha256": "a685c7ff1bacf5b3b02c70f6e8eb0e75e64c5892b41d4a6c30770ebc934c7f8e"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/ntcard-1.2.2.catalina.bottle.tar.gz",
+            "sha256": "23046c62a90ea7b0eca403f3785270a19044ee2df642edbfbe1c85d1e5b7f8d6"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/ntcard-1.2.1.x86_64_linux.bottle.tar.gz",
-            "sha256": "c6af69458de6e27eddb2f29f5b625babe016d3c919c140d05de7d8d27fe37fa7"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/ntcard-1.2.2.x86_64_linux.bottle.tar.gz",
+            "sha256": "f9f148edfccb1d956cc02dcf055fec2cbb1725e7b2fe86d99f1f861fe734e5bb"
           }
         }
       }
@@ -11993,13 +11662,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Scalable genome assembly polishing",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/bcgsc/ntEdit",
     "versions": {
       "stable": "1.3.2",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -12057,13 +11723,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Identifying repeats in high-throughput sequencing data",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/bcgsc/ntHits",
     "versions": {
       "stable": "0.0.1",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -12122,13 +11785,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Genome assembly scaffolder using minimizer graphs",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/bcgsc/ntJoin",
     "versions": {
       "stable": "1.0.3",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -12192,13 +11852,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Public health microbiology reports from sequenced isolates",
-    "license": [
-      "GPL-2.0"
-    ],
+    "license": "GPL-2.0",
     "homepage": "https://github.com/tseemann/nullarbor",
     "versions": {
       "stable": "2.0.20191013",
-      "devel": null,
       "head": null,
       "bottle": false
     },
@@ -12272,7 +11929,6 @@
     "homepage": "https://github.com/sequencing/NxTrim",
     "versions": {
       "stable": "0.4.3",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -12332,13 +11988,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "De novo transcriptome assembler for very short reads",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://www.ebi.ac.uk/~zerbino/oases/",
     "versions": {
       "stable": "0.2.08",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -12401,7 +12054,6 @@
     "homepage": "https://omabrowser.org/standalone/",
     "versions": {
       "stable": "2.4.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -12435,7 +12087,9 @@
     "keg_only": false,
     "bottle_disabled": false,
     "options": [],
-    "build_dependencies": [],
+    "build_dependencies": [
+      "unzip"
+    ],
     "dependencies": [
       "numpy",
       "python",
@@ -12462,13 +12116,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Simple and not slow ORF caller for NGS reads",
-    "license": [
-      "LGPL-3.0"
-    ],
+    "license": "LGPL-3.0",
     "homepage": "https://github.com/wwood/OrfM",
     "versions": {
       "stable": "0.7.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -12534,7 +12185,6 @@
     "homepage": "http://abacus.gene.ucl.ac.uk/software/paml.html",
     "versions": {
       "stable": "4.9i",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -12590,13 +12240,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "PAired-eND Assembler for DNA sequences",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/neufeld/pandaseq",
     "versions": {
       "stable": "2.11",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -12665,7 +12312,6 @@
     "homepage": "https://github.com/sanger-pathogens/panito",
     "versions": {
       "stable": "0.0.1",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -12732,7 +12378,6 @@
     "homepage": "https://github.com/jeffdaily/parasail",
     "versions": {
       "stable": "2.4.2",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -12799,7 +12444,6 @@
     "homepage": "https://github.com/marbl/parsnp",
     "versions": {
       "stable": "1.5.2",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -12868,7 +12512,6 @@
     "homepage": "https://www.pathvisio.org/",
     "versions": {
       "stable": "3.3.0",
-      "devel": null,
       "head": null,
       "bottle": false
     },
@@ -12911,13 +12554,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Paired-end trimmer with automatic adapter discovery",
-    "license": [
-      "GPL-2.0"
-    ],
+    "license": "GPL-2.0",
     "homepage": "https://github.com/jhhung/PEAT",
     "versions": {
       "stable": "1.2.5",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -12980,13 +12620,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Phylogenetic dataset construction",
-    "license": [
-      "GPL-2.0"
-    ],
+    "license": "GPL-2.0",
     "homepage": "https://github.com/jonchang/phlawd",
     "versions": {
       "stable": "3.4b",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -13052,7 +12689,6 @@
     "homepage": "http://evolution.genetics.washington.edu/phylip.html",
     "versions": {
       "stable": "3.697",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -13112,7 +12748,6 @@
     "homepage": "http://megasun.bch.umontreal.ca/People/lartillot/www/download.html",
     "versions": {
       "stable": "4.1e",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -13168,13 +12803,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Fast maximum likelihood-based phylogenetic inference",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "http://www.atgc-montpellier.fr/phyml/",
     "versions": {
       "stable": "3.3.20200621",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -13235,13 +12867,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Command-line tools for phylogenetic analyses",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/FePhyFoFum/phyx",
     "versions": {
       "stable": "1.01",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -13304,7 +12933,6 @@
     "homepage": "https://github.com/broadinstitute/pilon/wiki",
     "versions": {
       "stable": "1.23",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -13362,13 +12990,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Pangenome analysis and threshold evaluation toolbox",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/SionBayliss/PIRATE",
     "versions": {
       "stable": "1.0.4",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -13435,13 +13060,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Trim adapters of Oxford Nanopore sequencing reads",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/rrwick/Porechop",
     "versions": {
       "stable": "0.2.4",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -13499,13 +13121,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Genuine splice junction prediction from BAM files",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/maplesond/portcullis",
     "versions": {
       "stable": "1.1.0",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -13540,10 +13159,10 @@
     "bottle_disabled": false,
     "options": [],
     "build_dependencies": [
+      "unzip",
       "autoconf",
       "automake",
-      "libtool",
-      "unzip"
+      "libtool"
     ],
     "dependencies": [
       "gcc",
@@ -13571,13 +13190,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Place query sequences on a fixed reference phylogenetic tree",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://matsen.fhcrc.org/pplacer/",
     "versions": {
       "stable": "1.1.alpha17",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -13639,7 +13255,6 @@
     "homepage": "http://wasabiapp.org/software/prank/",
     "versions": {
       "stable": "170427",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -13702,7 +13317,6 @@
     "homepage": "https://github.com/tseemann/prokka",
     "versions": {
       "stable": "1.14.6",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -13764,6 +13378,67 @@
     "disabled": false
   },
   {
+    "name": "psmc",
+    "full_name": "seekingmeaning/bio/psmc",
+    "oldname": null,
+    "aliases": [],
+    "versioned_formulae": [],
+    "desc": "Implementation of the Pairwise Sequentially Markovian Coalescent (PSMC) model",
+    "license": "MIT",
+    "homepage": "https://github.com/lh3/psmc",
+    "versions": {
+      "stable": "0.6.5",
+      "head": null,
+      "bottle": true
+    },
+    "urls": {
+      "stable": {
+        "url": "https://github.com/lh3/psmc/archive/0.6.5.tar.gz",
+        "tag": null,
+        "revision": null
+      }
+    },
+    "revision": 0,
+    "version_scheme": 0,
+    "bottle": {
+      "stable": {
+        "rebuild": 0,
+        "cellar": ":any",
+        "prefix": "/home/linuxbrew/.linuxbrew",
+        "root_url": "https://linuxbrew.bintray.com/bottles-bio",
+        "files": {
+          "catalina": {
+            "url": "https://linuxbrew.bintray.com/bottles-bio/psmc-0.6.5.catalina.bottle.tar.gz",
+            "sha256": "27f4f32c8217f4f2278557e11b3a438da2c18f2be7d271e7a0f9f1d5659fb9e9"
+          },
+          "x86_64_linux": {
+            "url": "https://linuxbrew.bintray.com/bottles-bio/psmc-0.6.5.x86_64_linux.bottle.tar.gz",
+            "sha256": "ce3be20a3670f14e31c13222446f8c6fd2ae533c696405a8226d254058a7f525"
+          }
+        }
+      }
+    },
+    "keg_only": false,
+    "bottle_disabled": false,
+    "options": [],
+    "build_dependencies": [],
+    "dependencies": [
+      "zlib"
+    ],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "requirements": [],
+    "conflicts_with": [],
+    "caveats": null,
+    "installed": [],
+    "linked_keg": null,
+    "pinned": false,
+    "outdated": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
     "name": "pullseq",
     "full_name": "seekingmeaning/bio/pullseq",
     "oldname": null,
@@ -13774,7 +13449,6 @@
     "homepage": "https://github.com/bcthomas/pullseq",
     "versions": {
       "stable": "1.0.2",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -13838,14 +13512,13 @@
     "license": null,
     "homepage": "https://pymol.org/",
     "versions": {
-      "stable": "2.3.0",
-      "devel": null,
+      "stable": "2.4.0",
       "head": null,
       "bottle": true
     },
     "urls": {
       "stable": {
-        "url": "https://github.com/schrodinger/pymol-open-source/archive/v2.3.0.tar.gz",
+        "url": "https://github.com/schrodinger/pymol-open-source/archive/v2.4.0.tar.gz",
         "tag": null,
         "revision": null
       }
@@ -13855,17 +13528,13 @@
     "bottle": {
       "stable": {
         "rebuild": 0,
-        "cellar": ":any",
+        "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
         "prefix": "/home/linuxbrew/.linuxbrew",
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
-          "mojave": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/pymol-2.3.0.mojave.bottle.tar.gz",
-            "sha256": "14fe2ca191b6461477fe69d5aec46c965502a0dc1a6ce6d90d824379c77cb473"
-          },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/pymol-2.3.0.x86_64_linux.bottle.tar.gz",
-            "sha256": "8621be3863ecfbf5e0140240d8a5bd648aea59a175a45766a57b64b089956db9"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/pymol-2.4.0.x86_64_linux.bottle.tar.gz",
+            "sha256": "ce4f0acf8a97da25c6a67894a6afcb69c48a78497d4d3fd2e367b134c1785472"
           }
         }
       }
@@ -13877,15 +13546,19 @@
       "unzip"
     ],
     "dependencies": [
+      "brewsci/bio/mmtf-cpp",
+      "catch2",
+      "ffmpeg",
       "freeglut",
       "freetype",
       "glew",
       "glm",
       "libpng",
-      "mmtf-cpp",
       "msgpack",
+      "netcdf",
+      "numpy",
       "pyqt",
-      "python",
+      "python@3.9",
       "sip"
     ],
     "recommended_dependencies": [],
@@ -13907,12 +13580,11 @@
     "oldname": null,
     "aliases": [],
     "versioned_formulae": [],
-    "desc": "QUAST: Quality Assessment Tool for Genome Assemblies",
+    "desc": "Quality Assessment Tool for Genome Assemblies",
     "license": null,
     "homepage": "https://quast.sourceforge.io/",
     "versions": {
       "stable": "5.0.2",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -13971,13 +13643,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Merge long read and short read assemblies",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/mahulchak/quickmerge",
     "versions": {
       "stable": "0.3",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -14035,13 +13704,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Phylogenetic neighbor-joining tree builder",
-    "license": [
-      "Apache-2.0"
-    ],
+    "license": "Apache-2.0",
     "homepage": "https://github.com/khowe/quicktree",
     "versions": {
       "stable": "2.5",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -14097,13 +13763,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Compressing NGS data with extreme prejudice",
-    "license": [
-      "BSD-3-Clause"
-    ],
+    "license": "BSD-3-Clause",
     "homepage": "https://homes.cs.washington.edu/~dcjones/quip",
     "versions": {
       "stable": "1.1.8",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -14166,7 +13829,6 @@
     "homepage": "https://sourceforge.net/projects/weinberg-r2r",
     "versions": {
       "stable": "1.0.6",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -14224,13 +13886,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Estimate rates and divergence times on phylogenetic trees",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "http://ceiba.biosci.arizona.edu/r8s/",
     "versions": {
       "stable": "1.81",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -14288,13 +13947,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Compute consensus sequence of a genome assembly of long uncorrected reads",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/lbcb-sci/racon",
     "versions": {
       "stable": "1.4.13",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -14355,13 +14011,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Scaffolding and gap-filling with long sequences: RAILS and Cobbler",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/bcgsc/RAILS",
     "versions": {
       "stable": "1.5.1",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -14425,7 +14078,6 @@
     "homepage": "https://birc.au.dk/Software/RapidNJ/",
     "versions": {
       "stable": "2.3.2",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -14477,19 +14129,81 @@
     "disabled": false
   },
   {
+    "name": "raptor",
+    "full_name": "seekingmeaning/bio/raptor",
+    "oldname": null,
+    "aliases": [],
+    "versioned_formulae": [],
+    "desc": "Pre-filter for querying very large collections of nucleotide sequences",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/seqan/raptor",
+    "versions": {
+      "stable": "1.0.1",
+      "head": "HEAD",
+      "bottle": true
+    },
+    "urls": {
+      "stable": {
+        "url": "https://github.com/seqan/raptor",
+        "tag": "raptor-v1.0.1",
+        "revision": "6f2a0cc3cdc05f9311fea0081e644f37772a26bf"
+      }
+    },
+    "revision": 0,
+    "version_scheme": 0,
+    "bottle": {
+      "stable": {
+        "rebuild": 0,
+        "cellar": ":any",
+        "prefix": "/home/linuxbrew/.linuxbrew",
+        "root_url": "https://linuxbrew.bintray.com/bottles-bio",
+        "files": {
+          "catalina": {
+            "url": "https://linuxbrew.bintray.com/bottles-bio/raptor-1.0.1.catalina.bottle.tar.gz",
+            "sha256": "8dde79c5a6b6a79286b02ba145174052dae9124d4b77feddf0546259c1f28d73"
+          },
+          "x86_64_linux": {
+            "url": "https://linuxbrew.bintray.com/bottles-bio/raptor-1.0.1.x86_64_linux.bottle.tar.gz",
+            "sha256": "31d9b7147732688d898dfa1766a46338fc38652d813c226570bc22a3836f496f"
+          }
+        }
+      }
+    },
+    "keg_only": false,
+    "bottle_disabled": false,
+    "options": [],
+    "build_dependencies": [
+      "cmake"
+    ],
+    "dependencies": [
+      "gcc@8",
+      "bzip2",
+      "zlib"
+    ],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "requirements": [],
+    "conflicts_with": [],
+    "caveats": null,
+    "installed": [],
+    "linked_keg": null,
+    "pinned": false,
+    "outdated": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
     "name": "rasusa",
     "full_name": "seekingmeaning/bio/rasusa",
     "oldname": null,
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Randomly subsample sequencing reads to a specified coverage",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/mbhall88/rasusa",
     "versions": {
       "stable": "0.3.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -14547,13 +14261,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "De novo DNA assembly of long uncorrected read",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/lbcb-sci/raven",
     "versions": {
       "stable": "0.0.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -14615,7 +14326,6 @@
     "homepage": "https://sco.h-its.org/exelixis/web/software/raxml/index.html",
     "versions": {
       "stable": "8.2.12",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -14680,13 +14390,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Error correction for Illumina RNA-seq reads",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/mourisl/Rcorrector",
     "versions": {
       "stable": "1.0.4",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -14744,14 +14451,11 @@
     "oldname": null,
     "aliases": [],
     "versioned_formulae": [],
-    "desc": "The Reference sequence Alignment based Phylogeny",
-    "license": [
-      "GPL-3.0"
-    ],
+    "desc": "Reference sequence Alignment based Phylogeny",
+    "license": "GPL-3.0",
     "homepage": "https://realphy.unibas.ch/fcgi/realphy",
     "versions": {
       "stable": "1.12",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -14811,13 +14515,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Repack Illumina format FASTQ to a smaller binary file",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/OpenGene/repaq",
     "versions": {
       "stable": "0.2.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -14879,7 +14580,6 @@
     "homepage": "http://www.repeatmasker.org/",
     "versions": {
       "stable": "4.0.7",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -14947,7 +14647,6 @@
     "homepage": "http://www.repeatmasker.org/RMBlast.html",
     "versions": {
       "stable": "2.2.28",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -15008,13 +14707,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "High speed stand alone pan-genome pipeline",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://sanger-pathogens.github.io/Roary/",
     "versions": {
       "stable": "3.13.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -15085,13 +14781,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Easily manipulate and accurately compare multiple VCF files",
-    "license": [
-      "BSD-2-Clause"
-    ],
+    "license": "BSD-2-Clause",
     "homepage": "https://www.realtimegenomics.com/products/rtg-tools",
     "versions": {
       "stable": "3.11",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -15151,13 +14844,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Rapid confirmation of Salmonella species from WGS",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/hcdenbakker/SalmID",
     "versions": {
       "stable": "0.1.23",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -15215,13 +14905,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Transcript-level quantification from RNA-seq reads",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/COMBINE-lab/salmon",
     "versions": {
       "stable": "1.3.0",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -15289,13 +14976,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Tools for working with SAM/BAM data",
-    "license": [
-      "GPL-2.0"
-    ],
+    "license": "GPL-2.0",
     "homepage": "https://lomereiter.github.io/sambamba/",
     "versions": {
       "stable": "0.7.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -15356,13 +15040,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Fast duplicate marking in SAM files",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/GregoryFaust/samblaster",
     "versions": {
       "stable": "0.1.26",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -15418,13 +15099,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Filter soft/hard clipped alignments from SAM files",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/tseemann/samclip",
     "versions": {
       "stable": "0.4.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -15484,7 +15162,6 @@
     "homepage": "https://github.com/simongog/sdsl-lite",
     "versions": {
       "stable": "2.1.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -15542,13 +15219,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Ensemble of HMM methods (SEPP, TIPP, UPP)",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/smirarab/sepp",
     "versions": {
       "stable": "4.3.10",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -15582,7 +15256,9 @@
     "keg_only": false,
     "bottle_disabled": false,
     "options": [],
-    "build_dependencies": [],
+    "build_dependencies": [
+      "unzip"
+    ],
     "dependencies": [
       "adoptopenjdk",
       "python"
@@ -15611,7 +15287,6 @@
     "homepage": "http://tree.bio.ed.ac.uk/software/seqgen/",
     "versions": {
       "stable": "1.3.4",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -15665,13 +15340,14 @@
     "full_name": "seekingmeaning/bio/seqan@2",
     "oldname": null,
     "aliases": [],
-    "versioned_formulae": [],
+    "versioned_formulae": [
+      "seqan@3"
+    ],
     "desc": "C++ library of sequence algorithms and data structures",
     "license": null,
     "homepage": "https://www.seqan.de/",
     "versions": {
       "stable": "2.4.0",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -15729,19 +15405,20 @@
     "aliases": [
       "seqan"
     ],
-    "versioned_formulae": [],
-    "desc": "The modern C++ library for sequence analysis",
+    "versioned_formulae": [
+      "seqan@2"
+    ],
+    "desc": "Modern C++ library for sequence analysis",
     "license": null,
     "homepage": "https://www.seqan.de",
     "versions": {
-      "stable": "3.0.1",
-      "devel": null,
+      "stable": "3.0.2",
       "head": "HEAD",
       "bottle": true
     },
     "urls": {
       "stable": {
-        "url": "https://github.com/seqan/seqan3/archive/3.0.1.tar.gz",
+        "url": "https://github.com/seqan/seqan3/releases/download/3.0.2/seqan3-3.0.2-Source.tar.xz",
         "tag": null,
         "revision": null
       }
@@ -15756,12 +15433,12 @@
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
           "catalina": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/seqan%403-3.0.1.catalina.bottle.tar.gz",
-            "sha256": "a221a1a4c196e733656015d81a21bbfbc87ecb5c86f9710d66ff7ff99de69323"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/seqan%403-3.0.2.catalina.bottle.tar.gz",
+            "sha256": "2b09a9199ca88289ae9d7572ea159481e23cb57a419fec0c3e77647179f22a1a"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/seqan%403-3.0.1.x86_64_linux.bottle.tar.gz",
-            "sha256": "b576cf25561c3d8ad3f6cb38b0231f7fee572899b5fe6c8475cf96d73ffbbd5b"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/seqan%403-3.0.2.x86_64_linux.bottle.tar.gz",
+            "sha256": "067d5789a5501d6ac6668fc8323cedc0a3cfd0252de6ee2478d754695d0d4f1a"
           }
         }
       }
@@ -15770,11 +15447,12 @@
     "bottle_disabled": false,
     "options": [],
     "build_dependencies": [
-      "cmake",
-      "doxygen",
-      "xz"
+      "xz",
+      "cmake"
     ],
-    "dependencies": [],
+    "dependencies": [
+      "gcc@9"
+    ],
     "recommended_dependencies": [],
     "optional_dependencies": [],
     "uses_from_macos": [],
@@ -15795,19 +15473,16 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Ultrafast FASTA/Q file manipulation",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://bioinf.shenwei.me/seqkit/",
     "versions": {
-      "stable": "0.13.2",
-      "devel": null,
+      "stable": "0.14.0",
       "head": null,
       "bottle": true
     },
     "urls": {
       "stable": {
-        "url": "https://github.com/shenwei356/seqkit/releases/download/v0.13.2/seqkit_linux_amd64.tar.gz",
+        "url": "https://github.com/shenwei356/seqkit/releases/download/v0.14.0/seqkit_linux_amd64.tar.gz",
         "tag": null,
         "revision": null
       }
@@ -15822,12 +15497,12 @@
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
           "catalina": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/seqkit-0.13.2.catalina.bottle.tar.gz",
-            "sha256": "ebfc70d323aa3ed82d0ae46c5665ae8125db73e769b4f35e721366f87403e7d0"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/seqkit-0.14.0.catalina.bottle.tar.gz",
+            "sha256": "48b2bcd5bb7e30f810aa517eef0d357391b968eb3120baff42a02f6c3432a18c"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/seqkit-0.13.2.x86_64_linux.bottle.tar.gz",
-            "sha256": "8f008246e91a161695d78589115e9166d628778ca21772dff3b449d230ecf1b1"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/seqkit-0.14.0.x86_64_linux.bottle.tar.gz",
+            "sha256": "2b311ca6b3a6f5febf6baeafcefd6524d05de38c3bf0eaa26b32472c8f51ad92"
           }
         }
       }
@@ -15861,7 +15536,6 @@
     "homepage": "https://github.com/jts/sga",
     "versions": {
       "stable": "0.10.15",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -15924,13 +15598,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "De novo assembly pipeline for Illumina paired-end reads",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/tseemann/shovill",
     "versions": {
       "stable": "1.1.0",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -16005,7 +15676,6 @@
     "homepage": "http://bioinf.spbau.ru/sibelia",
     "versions": {
       "stable": "3.0.7",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -16070,7 +15740,6 @@
     "homepage": "https://sourceforge.net/projects/simulatepcr/",
     "versions": {
       "stable": "1.2",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -16132,13 +15801,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Split Kmer Analysis toolkit",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/simonrharris/SKA/releases",
     "versions": {
       "stable": "1.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -16200,7 +15866,6 @@
     "homepage": "https://github.com/ncbi/SKESA",
     "versions": {
       "stable": "2.4.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -16259,13 +15924,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Aligns DNA sequencing reads with a reference genome",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://www.sanger.ac.uk/science/tools/smalt-0",
     "versions": {
       "stable": "0.7.6",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -16325,7 +15987,6 @@
     "homepage": "http://korflab.ucdavis.edu/software.html",
     "versions": {
       "stable": "2013-11-29",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -16381,13 +16042,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Rapid bacterial SNP calling and core genome alignments",
-    "license": [
-      "GPL-2.0"
-    ],
+    "license": "GPL-2.0",
     "homepage": "https://github.com/tseemann/snippy",
     "versions": {
       "stable": "4.6.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -16465,7 +16123,6 @@
     "homepage": "http://lowelab.ucsc.edu/snoscan/",
     "versions": {
       "stable": "0.9.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -16521,13 +16178,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Pairwise SNP distance matrix from a FASTA sequence alignment",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/tseemann/snp-dists",
     "versions": {
       "stable": "0.7.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -16589,7 +16243,6 @@
     "homepage": "https://github.com/sanger-pathogens/snp-sites",
     "versions": {
       "stable": "2.5.1",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -16657,7 +16310,6 @@
     "homepage": "https://snpeff.sourceforge.io/",
     "versions": {
       "stable": "4.3t",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -16721,7 +16373,6 @@
     "homepage": "https://solexaqa.sourceforge.io/",
     "versions": {
       "stable": "3.1.7.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -16779,14 +16430,11 @@
     "oldname": null,
     "aliases": [],
     "versioned_formulae": [],
-    "desc": "SortMeRNA: filter metatranscriptomic ribosomal RNA",
-    "license": [
-      "GPL-3.0"
-    ],
+    "desc": "Filter metatranscriptomic ribosomal RNA",
+    "license": "GPL-3.0",
     "homepage": "https://bioinfo.lifl.fr/RNA/sortmerna/",
     "versions": {
       "stable": "2.1",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -16844,13 +16492,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Clustering scRNAseq by genotypes",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/wheaton5/souporcell",
     "versions": {
       "stable": "2.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -16908,13 +16553,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Exact and Approximate k-mer Counting System",
-    "license": [
-      "BSD-3-Clause"
-    ],
+    "license": "BSD-3-Clause",
     "homepage": "https://github.com/splatlab/squeakr",
     "versions": {
       "stable": "0.7",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -16979,13 +16621,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Pipeline for building loci from short-read sequences",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "http://catchenlab.life.illinois.edu/stacks/",
     "versions": {
       "stable": "2.41",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -17047,7 +16686,6 @@
     "homepage": "https://staden.sourceforge.io/",
     "versions": {
       "stable": "1.14.13",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -17108,19 +16746,16 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "RNA-seq aligner",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/alexdobin/STAR",
     "versions": {
-      "stable": "2.7.5b",
-      "devel": null,
+      "stable": "2.7.5c",
       "head": "HEAD",
       "bottle": true
     },
     "urls": {
       "stable": {
-        "url": "https://github.com/alexdobin/STAR/archive/2.7.5b.tar.gz",
+        "url": "https://github.com/alexdobin/STAR/archive/2.7.5c.tar.gz",
         "tag": null,
         "revision": null
       }
@@ -17135,12 +16770,12 @@
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
           "catalina": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/star-aligner-2.7.5b.catalina.bottle.tar.gz",
-            "sha256": "f93b98624ad490ec9aa0d3e44f2323040c37e87210d7a14b29aa65f31eb4808e"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/star-aligner-2.7.5c.catalina.bottle.tar.gz",
+            "sha256": "d4a0361a3d5cc993b0fe1944ace244108be668cb32640e04ac1606c1bbec97fe"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/star-aligner-2.7.5b.x86_64_linux.bottle.tar.gz",
-            "sha256": "53ea9c1f680542443d38d58d393b22660afec15a497ac4e78c706e380abe918d"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/star-aligner-2.7.5c.x86_64_linux.bottle.tar.gz",
+            "sha256": "570c4c40b3b9068af98763e6f1bc1c9da3ea77a0787caf005cb29a8b14b0a34c"
           }
         }
       }
@@ -17172,13 +16807,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Transcript assembly and quantification for RNA-Seq",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://ccb.jhu.edu/software/stringtie/",
     "versions": {
       "stable": "2.1.4",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -17236,13 +16868,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "High-performance read alignment, quantification and mutation discovery",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://academic.oup.com/nar/article/41/10/e108/1075719",
     "versions": {
       "stable": "2.0.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -17304,7 +16933,6 @@
     "homepage": "https://git.metabarcoding.org/obitools/sumaclust/wikis/home",
     "versions": {
       "stable": "1.0.31",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -17360,13 +16988,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Smith-Waterman database searches with inter-sequence SIMD parallelisation",
-    "license": [
-      "AGPL-3.0"
-    ],
+    "license": "AGPL-3.0",
     "homepage": "http://dna.uio.no/swipe/",
     "versions": {
       "stable": "2.1.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -17422,19 +17047,16 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "NCBI taxonomy toolkit",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/shenwei356/taxonkit",
     "versions": {
-      "stable": "0.6.0",
-      "devel": null,
+      "stable": "0.6.2",
       "head": null,
       "bottle": true
     },
     "urls": {
       "stable": {
-        "url": "https://github.com/shenwei356/taxonkit/releases/download/v0.6.0/taxonkit_linux_amd64.tar.gz",
+        "url": "https://github.com/shenwei356/taxonkit/releases/download/v0.6.2/taxonkit_linux_amd64.tar.gz",
         "tag": null,
         "revision": null
       }
@@ -17449,12 +17071,12 @@
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
           "catalina": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/taxonkit-0.6.0.catalina.bottle.tar.gz",
-            "sha256": "365c36072b1574851918593780efbcc8d9cb3fa5773e0720b66aa1edd7c26fd8"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/taxonkit-0.6.2.catalina.bottle.tar.gz",
+            "sha256": "8d884f4bbba6e7962b835cf50c4b08d5a7f8262b5ac47a2f774cfae0e4772dd7"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/taxonkit-0.6.0.x86_64_linux.bottle.tar.gz",
-            "sha256": "2cf8a967879c0768e6fcc132470ba5ae0897576828f1364724d52028dde43d1c"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/taxonkit-0.6.2.x86_64_linux.bottle.tar.gz",
+            "sha256": "22b6a81fd7d5de9d3f59826d886b24d139a24f83aaaaefe8e4b91f54a6928483"
           }
         }
       }
@@ -17488,7 +17110,6 @@
     "homepage": "https://www.ncbi.nlm.nih.gov/genbank/tbl2asn2/",
     "versions": {
       "stable": "25.8",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -17548,25 +17169,22 @@
     "oldname": null,
     "aliases": [],
     "versioned_formulae": [],
-    "desc": "Correct misassemblies using linked reads",
-    "license": [
-      "GPL-3.0"
-    ],
+    "desc": "Correct misassemblies using linked or long reads",
+    "license": "GPL-3.0-only",
     "homepage": "https://bcgsc.github.io/tigmint/",
     "versions": {
-      "stable": "1.1.2",
-      "devel": null,
+      "stable": "1.2.1",
       "head": "HEAD",
       "bottle": true
     },
     "urls": {
       "stable": {
-        "url": "https://github.com/bcgsc/tigmint/archive/1.1.2.tar.gz",
+        "url": "https://github.com/bcgsc/tigmint/archive/1.2.1.tar.gz",
         "tag": null,
         "revision": null
       }
     },
-    "revision": 2,
+    "revision": 0,
     "version_scheme": 0,
     "bottle": {
       "stable": {
@@ -17575,13 +17193,13 @@
         "prefix": "/home/linuxbrew/.linuxbrew",
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
-          "sierra": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/tigmint-1.1.2_2.sierra.bottle.tar.gz",
-            "sha256": "9a292eab8ee0a550a48441c4eb873682a4109b59c412a058bd37c3e6f898fc33"
+          "catalina": {
+            "url": "https://linuxbrew.bintray.com/bottles-bio/tigmint-1.2.1.catalina.bottle.tar.gz",
+            "sha256": "1f919b447553c75b731b405a70a5b0973995c1add24fb41ab5ceca8e1ea3d5f0"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/tigmint-1.1.2_2.x86_64_linux.bottle.tar.gz",
-            "sha256": "c115d2d29ba6216fa4a3a858510ff17a8b57efc96c427e9b66d98fc3c29e00e0"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/tigmint-1.2.1.x86_64_linux.bottle.tar.gz",
+            "sha256": "3970ada8c1db11a0c98358bcc9887593afa52f8a97343807e34d4a91790f5cd0"
           }
         }
       }
@@ -17592,7 +17210,8 @@
     "build_dependencies": [],
     "dependencies": [
       "bedtools",
-      "python"
+      "minimap2",
+      "python@3.8"
     ],
     "recommended_dependencies": [],
     "optional_dependencies": [],
@@ -17618,7 +17237,6 @@
     "homepage": "https://github.com/bcgsc/transabyss",
     "versions": {
       "stable": "2.0.1",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -17687,7 +17305,6 @@
     "homepage": "https://transdecoder.github.io/",
     "versions": {
       "stable": "5.5.0",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -17751,7 +17368,6 @@
     "homepage": "https://github.com/blackrim/treePL/wiki",
     "versions": {
       "stable": "2018.05.22",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -17813,7 +17429,6 @@
     "homepage": "https://tandem.bu.edu/trf/trf.html",
     "versions": {
       "stable": "4.09",
-      "devel": null,
       "head": null,
       "bottle": false
     },
@@ -17858,7 +17473,6 @@
     "homepage": "https://github.com/lh3/trimadap",
     "versions": {
       "stable": "0.1.11",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -17916,13 +17530,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Automated alignment trimming in phylogenetic analyses",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "http://trimal.cgenomics.org/",
     "versions": {
       "stable": "1.4.1",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -17978,13 +17589,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Flexible read trimming tool for Illumina data",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "http://www.usadellab.org/cms/?page=trimmomatic",
     "versions": {
       "stable": "0.39",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -18044,13 +17652,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "RNA-Seq de novo assembler",
-    "license": [
-      "BSD-3-Clause"
-    ],
+    "license": "BSD-3-Clause",
     "homepage": "https://trinityrnaseq.github.io",
     "versions": {
       "stable": "2.11.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -18124,7 +17729,6 @@
     "homepage": "http://lowelab.ucsc.edu/tRNAscan-SE/",
     "versions": {
       "stable": "2.0.4",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -18182,13 +17786,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Hybrid assembly pipeline for bacterial genomes",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/rrwick/Unicycler",
     "versions": {
       "stable": "0.4.7",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -18252,13 +17853,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Manipulate small kmers without frequency information",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/shenwei356/unikmer",
     "versions": {
       "stable": "0.11.0",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -18314,13 +17912,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Abbreviate strings to short unique identifiers",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/sjackman/uniqtag",
     "versions": {
       "stable": "1.0",
-      "devel": null,
       "head": "HEAD",
       "bottle": false
     },
@@ -18365,7 +17960,6 @@
     "homepage": "https://dkoboldt.github.io/varscan/",
     "versions": {
       "stable": "2.4.3",
-      "devel": null,
       "head": null,
       "bottle": false
     },
@@ -18406,13 +18000,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "High-fidelity simulation validation framework for NGS",
-    "license": [
-      "BSD-2-Clause"
-    ],
+    "license": "BSD-2-Clause",
     "homepage": "https://github.com/bioinform/varsim",
     "versions": {
       "stable": "0.8.4",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -18470,13 +18061,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Convert SNPs in VCF format to alignment file formats",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/edgardomortiz/vcf2phylip",
     "versions": {
       "stable": "2.3",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -18538,7 +18126,6 @@
     "homepage": "https://github.com/ekg/vcflib",
     "versions": {
       "stable": "1.0.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -18600,13 +18187,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Sequence assembler for very short reads",
-    "license": [
-      "GPL-2.0"
-    ],
+    "license": "GPL-2.0",
     "homepage": "https://www.ebi.ac.uk/~zerbino/velvet/",
     "versions": {
       "stable": "1.2.10",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -18664,13 +18248,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Automatically optimise Velvet genome assemblies",
-    "license": [
-      "GPL-2.0"
-    ],
+    "license": "GPL-2.0",
     "homepage": "https://github.com/tseemann/VelvetOptimiser",
     "versions": {
       "stable": "2.2.6",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -18730,13 +18311,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Simple tool to verticalize text delimited files",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://github.com/lindenb/verticalize",
     "versions": {
       "stable": "1.0.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -18796,7 +18374,6 @@
     "homepage": "https://www.tbi.univie.ac.at/~ronny/RNA/",
     "versions": {
       "stable": "2.4.14",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -18855,13 +18432,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Fast codon-correct alignment and annotation of viral genomes",
-    "license": [
-      "GPL-2.0"
-    ],
+    "license": "GPL-2.0",
     "homepage": "https://github.com/rega-cev/virulign",
     "versions": {
       "stable": "1.0.2",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -18919,13 +18493,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Large scale sequence analysis software",
-    "license": [
-      "ISC"
-    ],
+    "license": "ISC",
     "homepage": "http://www.vmatch.de/",
     "versions": {
       "stable": "2.3.1",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -18983,13 +18554,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Toolset for short variant discovery from NGS data",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "homepage": "https://genome.sph.umich.edu/wiki/Vt",
     "versions": {
       "stable": "0.5772",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -19047,13 +18615,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "ENA Webin command-line submission tool",
-    "license": [
-      "Apache-2.0"
-    ],
+    "license": "Apache-2.0",
     "homepage": "https://github.com/enasequence/webin-cli",
     "versions": {
       "stable": "1.8.11",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -19115,7 +18680,6 @@
     "homepage": "https://github.com/Ensembl/WiggleTools",
     "versions": {
       "stable": "1.2.3",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -19177,13 +18741,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Predict prokaryotic host for phage metagenomic sequences",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/soedinglab/WIsH/",
     "versions": {
       "stable": "1.0",
-      "devel": null,
       "head": "HEAD",
       "bottle": true
     },
@@ -19241,13 +18802,10 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Fuzzy de Bruijn Graph long read assembler",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0",
     "homepage": "https://github.com/ruanjue/wtdbg2",
     "versions": {
       "stable": "2.5",
-      "devel": null,
       "head": null,
       "bottle": true
     },
@@ -19311,19 +18869,16 @@
     "aliases": [],
     "versioned_formulae": [],
     "desc": "Smith-waterman alignment visualization",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0-only",
     "homepage": "https://github.com/bcgsc/xmatchview",
     "versions": {
-      "stable": "1.2.3",
-      "devel": null,
+      "stable": "1.2.5",
       "head": "HEAD",
       "bottle": true
     },
     "urls": {
       "stable": {
-        "url": "https://github.com/bcgsc/xmatchview/archive/v1.2.3.tar.gz",
+        "url": "https://github.com/bcgsc/xmatchview/archive/v1.2.5.tar.gz",
         "tag": null,
         "revision": null
       }
@@ -19338,12 +18893,12 @@
         "root_url": "https://linuxbrew.bintray.com/bottles-bio",
         "files": {
           "catalina": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/xmatchview-1.2.3.catalina.bottle.tar.gz",
-            "sha256": "3f69176e6aee0b04a146b13eecc2f4744a6735d18279638fc3e237b4c1369960"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/xmatchview-1.2.5.catalina.bottle.tar.gz",
+            "sha256": "bb684917be20bc4eee532f574c2822f8661f370ef990605ac30e032a6ea37f32"
           },
           "x86_64_linux": {
-            "url": "https://linuxbrew.bintray.com/bottles-bio/xmatchview-1.2.3.x86_64_linux.bottle.tar.gz",
-            "sha256": "13c6109f7a538b4278a468af00ea362ad4d2427ad5e1b9b927f1cfa0b979b985"
+            "url": "https://linuxbrew.bintray.com/bottles-bio/xmatchview-1.2.5.x86_64_linux.bottle.tar.gz",
+            "sha256": "3ad14591f734285d827c0d63d82ee9fb887c91f70f7c2c678b0f3db308027b38"
           }
         }
       }
@@ -19383,7 +18938,6 @@
     "homepage": "https://github.com/cmbi/xssp",
     "versions": {
       "stable": "3.0.9",
-      "devel": null,
       "head": null,
       "bottle": true
     },
